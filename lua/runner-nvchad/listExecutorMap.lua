@@ -8,7 +8,7 @@ local listExecutorMap = {
 		dbgComp = "cd $dir && g++ -g $fileName -o $fileNameWithoutExt",
 	},
 	php = { comp = "php $realPath" },
-	python = { comp = "python3 -u $realPath" },
+	python = { comp = "python3 -u \"$realPath\"" },
 	perl = { comp = "perl $realPath" },
 	perl6 = { comp = "perl6 $realPath" },
 	ruby = { comp = "ruby $realPath" },
